@@ -23,7 +23,7 @@ A interface do jogo foi projetada para ser intuitiva e acessível.  As instruç�
 
 ## Funcionalidades e Detalhes Técnicos
 
-[cite_start]O projeto foi desenvolvido inteiramente em **JavaScript**, utilizando a biblioteca **p5.js** para a renderização e interatividade.  [cite_start]Diversos conceitos de programação e recursos da biblioteca foram aplicados para atender aos critérios técnicos mais avançados: 
+O projeto foi desenvolvido inteiramente em **JavaScript**, utilizando a biblioteca **p5.js** para a renderização e interatividade.  
 
 * **Estrutura de Código:** Foram utilizadas as funções essenciais `setup()` e `draw()`, além de variáveis (`let`), condicionais (`if/else`) e laços de repetição (`for`) para a lógica principal. 
 * **Interatividade com o Mouse:** O jogo é controlado primariamente pela função de evento `mousePressed()`, que gerencia toda a lógica de virar e verificar as cartas. 
@@ -33,13 +33,8 @@ A interface do jogo foi projetada para ser intuitiva e acessível.  As instruç�
 * **Programação Orientada a Objetos:** O código utiliza uma `class Carta` para modularizar e organizar o comportamento e as propriedades de cada carta (posição, valor, estado), tornando o código mais limpo e escalável.
 * **Funções Auxiliares:** Para manter a função `draw()` organizada, a lógica de desenho foi dividida em funções menores e reutilizáveis, como `desenharCartas()`, `desenharHUD()`, `desenharCaixaDeMensagem()` e `desenharTelaFinal()`. 
 
-## Como Executar o Projeto
-
-[cite_start]O projeto está hospedado neste repositório do GitHub e contém os três arquivos necessários para sua execução: `index.html`, `sketch.js` e `style.css`. 
-
-
 ## Créditos
-* **Os emojis utilizados nas cartas foram retirados do site: [Getemoji](https://getemoji.com/)
+* Os emojis utilizados nas cartas foram retirados do site: [Getemoji](https://getemoji.com/)
 * **Desenvolvimento:** Gabriel Machado dos Anjos
 * **Programa:** Programa Agrinho 2025
 * **Hashtag Oficial:** #agrinho
