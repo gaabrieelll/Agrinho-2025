@@ -8,7 +8,7 @@ O objetivo central é evidenciar a conexão que campo e cidade têm um para o ou
 
 ## Como Jogar (Funcionamento)
 
-[cite_start]A interface do jogo foi projetada para ser intuitiva e acessível.  As instruções de interação são as seguintes:
+A interface do jogo foi projetada para ser intuitiva e acessível.  As instruções de interação são as seguintes:
 
 1.  **Início:** O jogo começa com 20 cartas viradas para baixo.
 2.  **Interação:**
@@ -25,13 +25,13 @@ O objetivo central é evidenciar a conexão que campo e cidade têm um para o ou
 
 [cite_start]O projeto foi desenvolvido inteiramente em **JavaScript**, utilizando a biblioteca **p5.js** para a renderização e interatividade.  [cite_start]Diversos conceitos de programação e recursos da biblioteca foram aplicados para atender aos critérios técnicos mais avançados: 
 
-* [cite_start]**Estrutura de Código:** Foram utilizadas as funções essenciais `setup()` e `draw()`, além de variáveis (`let`), condicionais (`if/else`) e laços de repetição (`for`) para a lógica principal. 
-* [cite_start]**Interatividade com o Mouse:** O jogo é controlado primariamente pela função de evento `mousePressed()`, que gerencia toda a lógica de virar e verificar as cartas. 
+* **Estrutura de Código:** Foram utilizadas as funções essenciais `setup()` e `draw()`, além de variáveis (`let`), condicionais (`if/else`) e laços de repetição (`for`) para a lógica principal. 
+* **Interatividade com o Mouse:** O jogo é controlado primariamente pela função de evento `mousePressed()`, que gerencia toda a lógica de virar e verificar as cartas. 
 * **Animações e Efeitos Visuais:**
     * **Hover:** Um efeito visual de destaque na borda das cartas é aplicado quando o mouse passa sobre elas, melhorando a responsividade da interface.
-    * [cite_start]**Transição de Cor:** Ao finalizar o jogo, a função `lerpColor()` é utilizada para criar uma transição suave na cor de fundo, adicionando um polimento visual à tela de vitória. 
+    * **Transição de Cor:** Ao finalizar o jogo, a função `lerpColor()` é utilizada para criar uma transição suave na cor de fundo, adicionando um polimento visual à tela de vitória. 
 * **Programação Orientada a Objetos:** O código utiliza uma `class Carta` para modularizar e organizar o comportamento e as propriedades de cada carta (posição, valor, estado), tornando o código mais limpo e escalável.
-* [cite_start]**Funções Auxiliares:** Para manter a função `draw()` organizada, a lógica de desenho foi dividida em funções menores e reutilizáveis, como `desenharCartas()`, `desenharHUD()`, `desenharCaixaDeMensagem()` e `desenharTelaFinal()`. 
+* **Funções Auxiliares:** Para manter a função `draw()` organizada, a lógica de desenho foi dividida em funções menores e reutilizáveis, como `desenharCartas()`, `desenharHUD()`, `desenharCaixaDeMensagem()` e `desenharTelaFinal()`. 
 
 ## Como Executar o Projeto
 
@@ -39,7 +39,7 @@ O objetivo central é evidenciar a conexão que campo e cidade têm um para o ou
 
 
 ## Créditos
-
+* **Os emojis utilizados nas cartas foram retirados do site: [Getemoji](https://getemoji.com/)
 * **Desenvolvimento:** Gabriel Machado dos Anjos
 * **Programa:** Programa Agrinho 2025
 * **Hashtag Oficial:** #agrinho
